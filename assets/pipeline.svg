@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 210" width="880" height="210" role="img" aria-labelledby="title desc">
+  <title id="title">Do pixel ao produto</title>
+  <desc id="desc">Pipeline de visão computacional: dados, pré-processamento, treino, avaliação e produto, com retorno da avaliação para os dados.</desc>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .mono, .mono text { font-family: "DejaVu Sans Mono", Consolas, monospace; }
+    .muted { fill: #a1b4cb; }
+    .edge { stroke: #4a6480; stroke-opacity: .28; }
+    .pulse { fill: none; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 10 110;
+             stroke-dashoffset: 10; animation: travel 3.2s linear infinite; }
+    .glow { opacity: .08; animation: fire 3.2s ease-in-out infinite; }
+    @keyframes travel { 0% { stroke-dashoffset: 10; } 55%, 100% { stroke-dashoffset: -110; } }
+    @keyframes fire { 0%, 100% { opacity: .08; } 20% { opacity: .95; } 45% { opacity: .08; } }
+
+    .lit { opacity: 0; animation: lit 3s ease-in-out infinite; }
+    .glow { animation-duration: 3s; }
+    @keyframes lit { 0%, 100% { opacity: 0; } 15% { opacity: .9; } 40% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="878" height="208" rx="18" fill="#0b1320" stroke="#22324a"/>
+  <text x="20.0" y="30" class="mono" font-size="11" letter-spacing="1.4" fill="#63dfd0">DO PIXEL AO PRODUTO</text>
+  <text x="860.0" y="30" text-anchor="end" class="mono" font-size="11" letter-spacing="1.4" fill="#6f86a3">entender → mapear → construir → iterar</text>
+  
+  <g>
+    <rect x="20.0" y="46" width="148" height="112" rx="14" fill="#0f1a2a" stroke="#2b3c52"/>
+    <rect x="20.0" y="46" width="148" height="112" rx="14" fill="none" stroke="#63dfd0" class="lit" style="animation-delay:0.0s"/>
+    <circle cx="44.0" cy="74" r="12" fill="#63dfd0" class="glow" style="animation-delay:0.0s"/>
+    <circle cx="44.0" cy="74" r="6" fill="#0d1726" stroke="#63dfd0" stroke-width="1.6"/>
+    <text x="152.0" y="79" text-anchor="end" class="mono" font-size="11" fill="#6f86a3">01</text>
+    <text x="36.0" y="112" font-size="16" font-weight="650" fill="#f1f5fc">Dados</text>
+    <text x="36.0" y="133" class="mono" font-size="10.5" fill="#a1b4cb">coleta e</text>
+    <text x="36.0" y="148" class="mono" font-size="10.5" fill="#a1b4cb">anotação</text>
+  </g>
+  <g>
+    <rect x="193.0" y="46" width="148" height="112" rx="14" fill="#0f1a2a" stroke="#2b3c52"/>
+    <rect x="193.0" y="46" width="148" height="112" rx="14" fill="none" stroke="#93a9ff" class="lit" style="animation-delay:0.6s"/>
+    <circle cx="217.0" cy="74" r="12" fill="#93a9ff" class="glow" style="animation-delay:0.6s"/>
+    <circle cx="217.0" cy="74" r="6" fill="#0d1726" stroke="#93a9ff" stroke-width="1.6"/>
+    <text x="325.0" y="79" text-anchor="end" class="mono" font-size="11" fill="#6f86a3">02</text>
+    <text x="209.0" y="112" font-size="16" font-weight="650" fill="#f1f5fc">Pré-processo</text>
+    <text x="209.0" y="133" class="mono" font-size="10.5" fill="#a1b4cb">OpenCV ·</text>
+    <text x="209.0" y="148" class="mono" font-size="10.5" fill="#a1b4cb">Pandas · NumPy</text>
+  </g>
+  <g>
+    <rect x="366.0" y="46" width="148" height="112" rx="14" fill="#0f1a2a" stroke="#2b3c52"/>
+    <rect x="366.0" y="46" width="148" height="112" rx="14" fill="none" stroke="#c49bff" class="lit" style="animation-delay:1.2s"/>
+    <circle cx="390.0" cy="74" r="12" fill="#c49bff" class="glow" style="animation-delay:1.2s"/>
+    <circle cx="390.0" cy="74" r="6" fill="#0d1726" stroke="#c49bff" stroke-width="1.6"/>
+    <text x="498.0" y="79" text-anchor="end" class="mono" font-size="11" fill="#6f86a3">03</text>
+    <text x="382.0" y="112" font-size="16" font-weight="650" fill="#f1f5fc">Treino</text>
+    <text x="382.0" y="133" class="mono" font-size="10.5" fill="#a1b4cb">YOLO ·</text>
+    <text x="382.0" y="148" class="mono" font-size="10.5" fill="#a1b4cb">PyTorch</text>
+  </g>
+  <g>
+    <rect x="539.0" y="46" width="148" height="112" rx="14" fill="#0f1a2a" stroke="#2b3c52"/>
+    <rect x="539.0" y="46" width="148" height="112" rx="14" fill="none" stroke="#f2c46d" class="lit" style="animation-delay:1.7999999999999998s"/>
+    <circle cx="563.0" cy="74" r="12" fill="#f2c46d" class="glow" style="animation-delay:1.7999999999999998s"/>
+    <circle cx="563.0" cy="74" r="6" fill="#0d1726" stroke="#f2c46d" stroke-width="1.6"/>
+    <text x="671.0" y="79" text-anchor="end" class="mono" font-size="11" fill="#6f86a3">04</text>
+    <text x="555.0" y="112" font-size="16" font-weight="650" fill="#f1f5fc">Avaliação</text>
+    <text x="555.0" y="133" class="mono" font-size="10.5" fill="#a1b4cb">mAP · precisão</text>
+    <text x="555.0" y="148" class="mono" font-size="10.5" fill="#a1b4cb">· recall</text>
+  </g>
+  <g>
+    <rect x="712.0" y="46" width="148" height="112" rx="14" fill="#0f1a2a" stroke="#2b3c52"/>
+    <rect x="712.0" y="46" width="148" height="112" rx="14" fill="none" stroke="#63dfd0" class="lit" style="animation-delay:2.4s"/>
+    <circle cx="736.0" cy="74" r="12" fill="#63dfd0" class="glow" style="animation-delay:2.4s"/>
+    <circle cx="736.0" cy="74" r="6" fill="#0d1726" stroke="#63dfd0" stroke-width="1.6"/>
+    <text x="844.0" y="79" text-anchor="end" class="mono" font-size="11" fill="#6f86a3">05</text>
+    <text x="728.0" y="112" font-size="16" font-weight="650" fill="#f1f5fc">Produto</text>
+    <text x="728.0" y="133" class="mono" font-size="10.5" fill="#a1b4cb">API · banco</text>
+    <text x="728.0" y="148" class="mono" font-size="10.5" fill="#a1b4cb">· interface</text>
+  </g>
+  <path d="M171.0 102H190.0" stroke="#3a516b" stroke-width="2"/><circle r="3.5" fill="#63dfd0"><animateMotion dur="3s" begin="0.0s" repeatCount="indefinite" path="M171.0 102H190.0"/></circle><path d="M344.0 102H363.0" stroke="#3a516b" stroke-width="2"/><circle r="3.5" fill="#93a9ff"><animateMotion dur="3s" begin="0.6s" repeatCount="indefinite" path="M344.0 102H363.0"/></circle><path d="M517.0 102H536.0" stroke="#3a516b" stroke-width="2"/><circle r="3.5" fill="#c49bff"><animateMotion dur="3s" begin="1.2s" repeatCount="indefinite" path="M517.0 102H536.0"/></circle><path d="M690.0 102H709.0" stroke="#3a516b" stroke-width="2"/><circle r="3.5" fill="#f2c46d"><animateMotion dur="3s" begin="1.7999999999999998s" repeatCount="indefinite" path="M690.0 102H709.0"/></circle>
+  <path d="M613.0 158V186H94.0V158" fill="none" stroke="#f2c46d" stroke-opacity=".5" stroke-dasharray="4 5"/>
+  <text x="440.0" y="180" text-anchor="middle" class="mono" font-size="10" fill="#f2c46d" fill-opacity=".85">o que a métrica revela volta para os dados</text>
+</svg>
